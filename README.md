@@ -32,3 +32,11 @@ $> python Python_AI_Image_Generator_Local_2-1/3.5
 Llama_Ollama_Local_Deep_researcher        
 LangChain, Ollama, DuckDuckGo 
 
+
+## 3. LinerRegression Housing 
+### Housing 
+#### #### [LinearRegression_Housing_SKLearn.ipynb](https://github.com/RanjitSolomon/code_snippets/blob/main/3_LinearRegression/Housing/LinearRegression_Housing_SKLearn.ipynb.ipynb)
+SKLearn, LinearRegression, GradientBoostingRegressor, RandomForestRegressor, HistGradientBoostingRegressor 
+
+
+

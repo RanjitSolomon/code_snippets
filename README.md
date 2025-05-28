@@ -35,8 +35,14 @@ LangChain, Ollama, DuckDuckGo
 
 ## 3. LinerRegression Housing 
 ### Housing 
-#### #### [LinearRegression_Housing_SKLearn.ipynb](https://github.com/RanjitSolomon/code_snippets/blob/main/3_LinearRegression/Housing/LinearRegression_Housing_SKLearn.ipynb.ipynb)
+#### #### [LinearRegression_Housing_SKLearn.ipynb](https://github.com/RanjitSolomon/code_snippets/blob/main/3_LinearRegression/Housing/LinearRegression_Housing_SKLearn.ipynb)
 SKLearn, LinearRegression, GradientBoostingRegressor, RandomForestRegressor, HistGradientBoostingRegressor 
 
+## 4. LangGraph
+#### [simple chatbot](https://github.com/RanjitSolomon/code_snippets/blob/main/4_LangGraph/1_simple_chatbot.py)
+#### [advanced chatbot](https://github.com/RanjitSolomon/code_snippets/blob/main/4_LangGraph/2_advanced_chatbot.py)
 
-
+## 5. Text To Speech
+#### [Dia](https://github.com/RanjitSolomon/code_snippets/blob/main/5_TextToSpeech/Dia.txt)
+Text to speech. 
+#### [zonos](https://github.com/RanjitSolomon/code_snippets/blob/main/5_TextToSpeech/zonos/zonos.txt)

@@ -1,0 +1,62 @@
+https://github.com/Zyphra/Zonos - Docker
+https://github.com/sdbds/Zonos-for-windows
+
+https://www.youtube.com/watch?v=kHJVovkrJ2o
+
+Installation - for-windows
+git clone  
+open powershell with admin Type "Set-ExecutionPolicy Unrestricted" and answer A
+close powershell
+Powershell run with 1、install-uv-qinglong.ps1 (right click then choose use powershell run) auto install in one-clik
+2, run_gradio.bat (double click) or right click and open with powershell
+(check 2、run_gradio.ps1)
+See Docker version as well
+
+
+
+
+Type the text 
+Drop the sample audio to clone (optional)
+check Denoise -if the sample audio contains noise
+
+Zonos Model Type - 2 models to choose from zonos-v0.1-hybrid (Generates audio faster), Zonos-v0.1-transformer
+
+Select Language 
+
+dnsmos - emotion & languages - 4 to 
+https://github.com/Zyphra/Zonos/blob/main/CONDITIONING_README.md#dnsmos_ovrl
+Set to 4.0 for very clean and neutral English speech
+This is similar to VQScore and tends to have a stronger entanglement with emotions.
+
+fmax - Maximum Frequency  (set to default)
+https://github.com/Zyphra/Zonos/blob/main/CONDITIONING_README.md#fmax
+Specifies the max frequency of the audio. For best results select 22050 or 24000 as these correspond to 44.1 and 48KHz audio respectively.
+
+vqscore_8 - Expressiveness
+https://github.com/Zyphra/Zonos/blob/main/CONDITIONING_README.md#vqscore_8
+A good value for our model is 0.78 for high-quality speech. 
+
+pitch-std
+https://github.com/Zyphra/Zonos/blob/main/CONDITIONING_README.md#pitch_std
+Specifies the standard deviation of the pitch of the output audio
+Good values are from 20-45 for normal speech and 60-150 for expressive speech.
+
+speaking_rate  - how fast
+https://github.com/Zyphra/Zonos/blob/main/CONDITIONING_README.md#speaking_rate
+
+------------------Advanced-------------------------------
+unconditional keys
+emotions
+works when unchecked. 
+
+if you check vqscore, speaking_rate,  top vqscore setting and speaking_rate are ignored
+
+
+
+
+
+
+
+
+
+

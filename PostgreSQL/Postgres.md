@@ -114,7 +114,7 @@ WHERE Clause
 &lt;	Less than						WHERE year < 1975;      
 &gt;	Greater than      
 &lt;=	Less than or equal to					WHERE year <= 1975;       
-&lt;=	Greater than or equal to				WHERE year >= 1975;       
+&gt;=	Greater than or equal to				WHERE year >= 1975;       
 &lt;&gt;	Not equal to						WHERE brand <> 'Volvo';      
 !=	Not equal to						WHERE brand != 'Volvo';         
 LIKE	Check if a value matches a pattern (case sensitive)       

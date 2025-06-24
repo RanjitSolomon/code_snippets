@@ -313,7 +313,7 @@ LEFT JOIN customers ON orders.customer_id = customers.customer_id
 GROUP BY customer_name;
 
 
-3## HAViNG 
+## HAViNG 
 
 The HAVING clause was added to SQL because the WHERE clause cannot be used with aggregate functions.
 Aggregate functions are often used with GROUP BY clauses,
@@ -417,8 +417,9 @@ CASE
   WHEN price > 50 THEN 'High price product'
 ELSE
   'Normal product'
-END AS "price category"
+  END AS "price category"
 FROM products;
+
 
 
 

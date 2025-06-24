@@ -1,0 +1,19 @@
+CREATE TABLE IF NOT EXISTS public.sales_data
+(
+    order_id integer NOT NULL,
+    order_date date,
+    customer_id integer,
+    customer_name character varying(255) COLLATE pg_catalog."default",
+    product_id integer,
+    product_names character varying(255) COLLATE pg_catalog."default",
+    categories character varying(100) COLLATE pg_catalog."default",
+    quantity integer,
+    price numeric(10,2),
+    total numeric(10,2)
+)
+
+
+COPY sales_data(order_id, order_date, customer_id, customer_name, product_id, product_names, categories, quantity, price, total )
+FROM 'D:\Dev\Python\Streamlit\sales_data.csv'
+DELIMITER ','
+CSV HEADER;

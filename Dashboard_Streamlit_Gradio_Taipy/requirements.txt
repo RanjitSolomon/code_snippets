@@ -1,0 +1,10 @@
+taipy 
+pandas 
+polars
+gradio
+matplotlib
+cachetools
+streamlit   
+psycopg2
+
+

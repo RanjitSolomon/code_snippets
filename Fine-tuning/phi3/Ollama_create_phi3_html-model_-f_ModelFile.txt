@@ -1,0 +1,1 @@
+Ollama create phi3_html-model -f ModelFile

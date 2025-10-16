@@ -8,7 +8,7 @@ https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 Components       
 - PostgreSQL Server       
 - pgAdmin 4      
-- Command Line Tools       
+- Command Line Tools   - psql -h localhost -p 5432 -U postgres    
       
 START     
 SQL Shell (psql)       
